@@ -1,0 +1,95 @@
+.form {
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[type='number'] {
+  display: block;
+  box-sizing: border-box;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 28px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-top: 8px;
+  padding: 8px 16px;
+}
+
+[type='number']:hover {
+  border-color: #000000;
+}
+
+[type='number']:focus {
+  border-color: #4e75ff;
+  outline: transparent;
+}
+
+.field {
+  display: flex;
+  box-sizing: border-box;
+  width: 360px;
+  height: 64px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-left: 28px;
+  padding-bottom: 5px;
+}
+
+.field:hover {
+  border-color: #000000;
+}
+
+.form > button {
+  box-sizing: border-box;
+  text-decoration: none;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: transparent;
+  width: 360px;
+  height: 40px;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-left: 0;
+  transition: background-color 250ms linear;
+}
+
+.form > button:hover {
+  background-color: #6c8cff;
+  outline: transparent;
+  outline-offset: 4px;
+}
+
+[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+fieldset.label {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.snackbar-button {
+  background-color: #4e75ff;
+  width: 360px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+}
