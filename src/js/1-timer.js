@@ -93,6 +93,8 @@ function start() {
   const interval = setInterval(() => {
     if (userSelectedDate < 0) {
       clearInterval(interval);
+      input.disabled = false;
+      dataStart.disabled = false;
     } else {
       addLeadingZero(userSelectedDate, convertMs);
       userSelectedDate -= 1000;
